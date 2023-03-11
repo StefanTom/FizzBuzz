@@ -1,9 +1,10 @@
 for x in range(1,101):
     if x % 3 == 0 and x % 5 == 0:
-        print("FizzBuzz")
+        fbval = 'FizzBuzz'
     elif x % 3 == 0:
-        print("Fizz")
-    elif x % 3 == 0:
-        print("Buzz")
+        fbval = 'Fizz'
+    elif x % 5 == 0:
+        fbval = 'Buzz'
     else:
-        print(x)
+        fbval = x
+    print(fbval)
